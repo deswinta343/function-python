@@ -11,7 +11,7 @@ def hitungfpb(a, b):
         #perumpamaan jika nilai b tidak sama dengan 0 maka akan memanggil fungsi a,b
 
 #mencari KPK
-def carikpk(a, b): 
+def hitungkpk(a, b): 
     #fungsi dengan nama hitungkpk
     return (a * b) / hitungfpb(a, b) 
     #mengembalikan nilai berupa hasil perkalian dan memanggilan fungsi hitungfpb
